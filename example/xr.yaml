@@ -1,0 +1,7 @@
+apiVersion: example.crossplane.io/v1
+kind: XR
+metadata:
+  name: example-xr
+  annotations:
+    fn.crossplane.io/ttl: 1s
+spec: {}
